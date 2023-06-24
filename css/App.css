@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #153d6b;
+  color: #eeecda;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+h1 {
+  margin: 2rem 0;
+  font-weight: 400;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid #9ad3bc;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70rem;
+  margin-bottom: 2rem;
+}
+
+.button {
+  border: 1px solid #edc988;
+  text-transform: uppercase;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.3rem 1.5rem;
+  background-color: #9ad3bc;
+  border-color: #9ad3bc;
+  color: #153d6b;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  margin-right: 0.25rem;
+}
+.button:hover {
+  background-color: #2ec1ac;
+  border-color: #2ec1ac;
+  cursor: pointer;
+}
+.button:focus {
+  outline: none;
+  border-color: #2ec1ac;
+  background-color: #2ec1ac;
+  color: #eeecda;
+}
+.button.addTask {
+  font-size: 3rem;
+  padding: 0 0 0.4rem 0;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 1rem;
+  margin-top: 2rem;
+}
+.button.moveTask {
+  font-size: 1.5rem;
+  padding: 0.5rem 0.5rem;
+  margin-bottom: 0;
+  line-height: 1rem;
+}
+.button.delete {
+  background-color: #ffa5a5;
+  border-color: #ffa5a5;
+}
+.button.delete:hover {
+  background-color: #ff8282;
+  border-color: #ff8282;
+}
+
+@media only screen and (max-width: 75rem) {
+  section {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
