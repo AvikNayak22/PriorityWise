@@ -11,10 +11,10 @@ Task Manager is a web application built with React for managing tasks. It allows
 
 ## Installation
 
-1. Clone the repository: git clone https://github.com/AvikNayak22/task-manager-react.git
-2. Navigate to the project directory: cd task-manager-react
-3. Install the dependencies: npm install
-4. Start the development server: npm run dev
+1. Clone the repository: `git clone https://github.com/AvikNayak22/task-manager-react.git`.
+2. Navigate to the project directory: `cd task-manager-react`.
+3. Install the dependencies: `npm install`.
+4. Start the development server: `npm run dev`.
 
 ## Usage
 
