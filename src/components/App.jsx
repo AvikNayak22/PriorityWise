@@ -86,7 +86,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Task Management</h1>
+      <h1>PriorityWise</h1>
       <main>
         <section>
           <StatusLine
