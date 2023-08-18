@@ -1,6 +1,6 @@
-# Task Manager
+# PriorityWise
 
-Task Manager is a web application built with React for managing tasks. It allows users to create, update, and delete tasks, as well as move tasks between different statuses such as Backlog, In Progress, and Done.
+PriorityWise is a web application built with React for managing tasks. It allows users to create, update, and delete tasks, as well as move tasks between different statuses such as Backlog, In Progress, and Done.
 
 ## Features
 
